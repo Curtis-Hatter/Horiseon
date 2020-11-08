@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header CSS content along with nav bar starts HERE */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,16 +18,16 @@ header {
     overflow: auto;
 }
 
-header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header span.seo {
+span.seo {
     color: #d9dcd6;
 }
 
-header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -40,9 +42,7 @@ a {
     display: inline-block;
 }
 
-p {
-    font-size: 16px;
-}
+/* Horiseon Image starts HERE */
 
 figure {
     height: 800px;
@@ -53,17 +53,7 @@ figure {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    width: 25%;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    width: 25%;
-    margin-left: 25px;
-}
+/* Main CSS content starts HERE */
 
 main {
     width: 75%;
@@ -71,41 +61,6 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
-
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-/* redined classes to reduce clutter */
-
-.benefits {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* redined classes to reduce clutter */
-
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* redined classes to reduce clutter */
-
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* redined classes to reduce clutter */
 
 article {
     margin-bottom: 20px;
@@ -125,12 +80,59 @@ article img {
     max-height: 200px;
 }
 
-/* redined classes to reduce clutter */
-
-article h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    width: 25%;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    width: 25%;
+    margin-left: 25px;
+}
+
+/* Banner CSS starts HERE */
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* redined classes to reduce clutter */
+
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* footer CSS content starts HERE */
 
 footer {
     padding: 30px;
@@ -139,6 +141,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+h4 {
     font-size: 20px;
 }
